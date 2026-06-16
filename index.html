@@ -610,7 +610,7 @@ const values2 = [
 
 async function submitSurvey(data) {
   const response = await fetch(
-    `${SUPABASE_URL}/rest/v1/ResponsesToe`,
+    `${SUPABASE_URL}/rest/v1/ResponsesToe_1`,
     {
       method: "POST",
       headers: {
@@ -804,7 +804,7 @@ async function submitMail() {
   if (!email) return;
 
   const response = await fetch(
-    `${SUPABASE_URL}/rest/v1/MailsToe`,
+    `${SUPABASE_URL}/rest/v1/MailsToe_1`,
     {
       method: "POST",
       headers: {
